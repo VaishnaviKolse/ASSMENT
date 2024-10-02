@@ -1,0 +1,70 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #1abc9c;
+            color: black;
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+        .service {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .accordion {
+            background-color: #1abc9c;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            transition: background-color 0.3s;
+        }
+        .accordion:hover {
+            background-color: #16a085;
+        }
+        .panel {
+            display: none;
+            padding: 0 18px;
+            background-color: white;
+            overflow: hidden;
+        }
+        .service-details {
+            padding: 20px;
+        }
+        .service-details p {
+            margin-bottom: 20px;
+        }
+        .learn-more-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #1abc9c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .learn-more-btn:hover {
+            background-color: #16a085;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
